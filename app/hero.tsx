@@ -135,14 +135,14 @@ const Hero = () => {
             </Link>
 
             <motion.a
-              href="https://meetings.hubspot.com/productizedos/epic-labs?uuid=fca92f30-4111-4445-9498-af335bb840af"
+              href={"/contact"}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-red-500 text-white
                px-6 md:px-8 py-3 rounded-full text-lg
                 font-medium hover:bg-red-600 transition-all hover:shadow-lg inline-block"
             >
-              Book a meeting
+              Let's make it happen
             </motion.a>
           </motion.div>
         </div>

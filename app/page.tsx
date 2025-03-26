@@ -3,6 +3,7 @@ import Footer from "./footer";
 import Founders from "./founders";
 import Hero from "./hero";
 import Navbar from "./navbar";
+import News from "./news";
 import { Projects } from "./projects";
 import Statistics from "./stats";
 
@@ -16,6 +17,7 @@ const Home = () => {
  <Projects />
  <Founders />
  <Statistics />
+ <News/>
  <Faq />
  <Footer />
   </div> );

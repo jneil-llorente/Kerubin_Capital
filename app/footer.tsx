@@ -54,15 +54,18 @@ const Footer = () => {
           <div>
             <h2 className="text-4xl font-bold mb-4">Let&apos;s Talk!</h2>
             <a
-              href="mailto:hi@email.com"
+              href="impact@kerubincapital.com"
               className="text-xl hover:underline inline-block mb-8"
             >
-              hi@email.com
+              impact@kerubincapital.com
             </a>
             <p className="text-gray-600">
-              1233 street, Paris France
+              101 Upper Cross St.  #05-16
               <br />
-              Paris France 1234
+              People’s Park Center
+              <br />
+              Singapore 058357
+
             </p>
           </div>
 
@@ -158,7 +161,7 @@ const Footer = () => {
           </div>
 
           {/* Copyright */}
-          <div className="text-[#7b7b7b] text-sm">© 2025 Epic Labs, Inc</div>
+          <div className="text-[#7b7b7b] text-sm">© 2025 Kerubin Capital, Inc</div>
         </div>
 
 

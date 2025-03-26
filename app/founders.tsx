@@ -262,11 +262,11 @@ const Founders = () => {
       >
         <div className="flex justify-between items-center mb-12">
           <div>
-            <h2 className="text-3xl font-bold mb-2">
+          <h2 className="text-3xl font-bold mb-8">
               Trusted by 400+ Business Owners
             </h2>
             <p className="text-gray-600">
-  Our team is made up of experienced founders, investors, industry leaders, and business operators,  each bringing a unique blend  of passion and capability to create <br />  impact in gender-lens investing.
+  Our team is made up of experienced founders, investors, industry leaders, and business operators,  each bringing a unique blend  of passion and capability to create  impact in gender-lens investing.
 </p>
           </div>
           <div className="hidden md:flex gap-2">
