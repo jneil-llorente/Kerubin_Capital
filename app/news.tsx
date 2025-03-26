@@ -47,6 +47,27 @@ const newsData = [
     date: "July 14, 2024",
     image: "/news6.jpeg",
     link: "https://www.abs-cbn.com/video/business/06/22/22/ph-has-healthy-growing-startup-ecosystem",
+  },
+  {
+    title: "MAIN launches its first Gender Lens Investment forum on women entrepreneurs",
+    description: "Manila Times",
+    date: "April 6, 2022",
+    image: "/news7.png",
+    link: "https://www.manilatimes.net/2022/04/06/public-square/main-launches-its-first-gender-lens-investment-forum-on-women-entrepreneurs/1838942",
+  },
+  {
+    title: "MAIN Investment Forum",
+    description: "Malaya Business Insight",
+    date: "March 29, 2022",
+    image: "/news8.jpeg",
+    link: "https://malaya.com.ph/business/marketing-board/honda-cars-dealership-singlife-protection-pru-life-uk-donation-main-investment-forum-bpi-aia-recognition-dhl-express-collection-tool-refocus-for-digital-marketing-finis-partners-with-bcda-napo/",
+  },
+  {
+    title: "Top Fintech Influencers in The Philippines",
+    description: "Fintech News Philippines",
+    date: "March 29, 2022",
+    image: "/news9.png",
+    link: "https://fintechnews.ph/55547/fintechphilippines/top-fintech-influencers-in-the-philippines/",
   }
 ];
 
@@ -64,42 +85,37 @@ const News = () => {
   };
 
   return (
-    <div
-        className="px-6 
-      mx-auto 2xl:w-4/5 md:px-16
-      
-      py-16 md:py-32"
-      >
-      <h2 className="text-3xl font-bold mb-8">Stay Updated with the Latest Industry Insights</h2>
-      <p className="text-gray-600 mb-8">
-        Stay ahead of the curve with the latest updates on business trends, investment strategies, and entrepreneurial success stories. Our curated news section brings you insights from industry leaders, innovative startups, and emerging opportunities to help you make informed decisions and grow your business.
+    <div className="px-6 md:px-16 mx-auto 2xl:w-4/5 py-16 md:py-32">
+      <h2 className="text-3xl md:text-4xl font-bold mb-8">Stay Updated with the Latest Industry Insights</h2>
+      <p className="text-gray-600 mb-8 md:text-lg">
+        Stay ahead of the curve with the latest updates on business trends, investment strategies, and entrepreneurial success stories.
       </p>
       <div className="relative w-full max-w-5xl overflow-hidden">
         {/* Navigation Buttons */}
         <button 
           onClick={prevSlide} 
-          className="p-3 bg-white bg-opacity-80 rounded-full shadow-md hover:bg-gray-200 absolute left-4 top-1/2 transform -translate-y-1/2 z-10"
+          className="p-3 md:p-4 bg-white bg-opacity-80 rounded-full shadow-md hover:bg-gray-200 absolute left-4 top-1/2 transform -translate-y-1/2 z-10"
         >
-          <ChevronLeft className="w-6 h-6 text-gray-600" />
+          <ChevronLeft className="w-6 h-6 md:w-8 md:h-8 text-gray-600" />
         </button>
         <button 
           onClick={nextSlide} 
-          className="p-3 bg-white bg-opacity-80 rounded-full shadow-md hover:bg-gray-200 absolute right-4 top-1/2 transform -translate-y-1/2 z-10"
+          className="p-3 md:p-4 bg-white bg-opacity-80 rounded-full shadow-md hover:bg-gray-200 absolute right-4 top-1/2 transform -translate-y-1/2 z-10"
         >
-          <ChevronRight className="w-6 h-6 text-gray-600" />
+          <ChevronRight className="w-6 h-6 md:w-8 md:h-8 text-gray-600" />
         </button>
         {/* News Cards */}
         <div className="flex transition-transform duration-500 ease-in-out space-x-4" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {newsData.map((news, index) => (
-            <div key={index} className="w-1/3 flex-shrink-0 px-2">
+            <div key={index} className="w-full sm:w-1/2 md:w-1/3 flex-shrink-0 px-2">
               <Link href={news.link} target="_blank" rel="noopener noreferrer" className="block bg-white shadow-md rounded-lg overflow-hidden w-full">
-                <div className="w-full h-48 relative">
+                <div className="w-full h-48 md:h-56 relative">
                   <Image src={news.image} layout="fill" objectFit="cover" alt={news.title} />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-lg font-bold mb-2">{news.title}</h3>
-                  <p className="text-gray-600 text-sm">{news.description}</p>
-                  <p className="text-gray-500 text-xs mt-2">{news.date}</p>
+                  <h3 className="text-lg md:text-xl font-bold mb-2">{news.title}</h3>
+                  <p className="text-gray-600 text-sm md:text-base">{news.description}</p>
+                  <p className="text-gray-500 text-xs md:text-sm mt-2">{news.date}</p>
                 </div>
               </Link>
             </div>
