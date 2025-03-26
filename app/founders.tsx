@@ -32,65 +32,65 @@ interface Founder {
 
 const founders: Founder[] = [
     {
-      name: "Alex Johnson",
-      role: "CEO & Founder",
-      image: "/image-1.jpg",
-      description:
-        "Leading our vision with over a decade of experience in AI and business strategy",
-      social: {
-        linkedin: "https://linkedin.com",
-        twitter: "https://twitter.com",
-        website: "https://website.com",
-      },
-    },
-    {
-      name: "Jamie Lee",
-      role: "CTO",
-      image: "/image-2.jpg",
-      description:
-        "Expert in AI technologies, driving innovation and technical excellence across our projects",
-      social: {
-        linkedin: "https://linkedin.com",
-        twitter: "https://twitter.com",
-        website: "https://website.com",
-      },
-    },
-    {
-      name: "Morgan Smith",
-      role: "Marketing Director",
+      name: "Tina Di Cicco",
+      role: "Director",
       image: "/image-3.jpg",
       description:
-        "Crafting impactful marketing strategies that resonate with our clients and their audiences",
+        "Venture Partner, INVESTIBLE ",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://twitter.com",
+        website: "https://website.com",
+      },
+    },
+    {
+      name: "Den Manzano",
+      role: "Director",
+      image: "/image-2.jpg",
+      description:
+        "President, Manila Angel Investors Network, Inc",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://twitter.com",
+        website: "https://website.com",
+      },
+    },
+    {
+      name: "Claus Karthe",
+      role: "Director",
+      image: "/image-1.jpg",
+      description:
+        "CEO, Start2Group",
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
       },
     },
     {
-      name: "Taylor Brown",
-      role: "Lead Developer",
+      name: "Jerome Lorenzo",
+      role: "Director",
       image: "/image-4.jpg",
       description:
-        "Creating innovative solutions with our expert development team",
+        "CFO, Footprint Investments Director, Franklin Baker Group",
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
       },
     },
     {
-      name: "Chris White",
-      role: "Head of Design",
+      name: "Alfonso “Chito” Zulueta",
+      role: "Director",
       image: "/image-4.jpg",
       description:
-        "Driving creative direction and design excellence across all our projects",
+        "Chairman,  Zuellig Corporation ",
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
       },
     },
     {
-      name: "Emily Green",
-      role: "Product Manager",
+      name: "Siew Kam Boon",
+      role: "ndependent Director ",
       image: "/image-5.jpg",
       description:
         "Leading product development and strategy with a focus on user experience",
@@ -100,33 +100,55 @@ const founders: Founder[] = [
       },
     },
     {
-      name: "Ethan Black",
-      role: "Data Scientist",
+      name: "Rhea See",
+      role: "Independent Director ",
       image: "/image-6.jpg",
       description:
-        "Applying advanced data science techniques to drive insights and innovation",
+        "Co-founder, She Loves Tech",
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
       },
     },
     {
-      name: "Ava Brown",
-      role: "Customer Success",
+      name: "James Lette",
+      role: "Development & Investing Lead ",
       image: "/image-7.jpg",
       description:
-        "Ensuring our clients receive the best possible service and support",
+        "Principal, Social Impact Strategies ",
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
       },
     },
     {
-      name: "Noah White",
-      role: "Business Development",
+      name: "Rene Benitez",
+      role: "Board Advisor",
       image: "/image-1.jpg",
       description:
-        "Building relationships and driving growth through strategic partnerships",
+        "Venture Capitalist, Investment Banker",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://twitter.com",
+      },
+    },
+    {
+      name: "Elizabeth Hernandez",
+      role: "Board Advisor",
+      image: "/image-1.jpg",
+      description:
+        "Head of Public Affairs APAC, Apple, Inc.",
+      social: {
+        linkedin: "https://linkedin.com",
+        twitter: "https://twitter.com",
+      },
+    },
+    {
+      name: "Rene Benitez",
+      role: "Board Advisor",
+      image: "/image-1.jpg",
+      description:
+        "Founding Managing Partner, iGlobe",
       social: {
         linkedin: "https://linkedin.com",
         twitter: "https://twitter.com",
