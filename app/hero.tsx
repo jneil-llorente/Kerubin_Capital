@@ -142,7 +142,7 @@ const Hero = () => {
                px-6 md:px-8 py-3 rounded-full text-lg
                 font-medium hover:bg-red-600 transition-all hover:shadow-lg inline-block"
             >
-              Let's make it happen
+              Let&apos;s make it happen
             </motion.a>
           </motion.div>
         </div>
